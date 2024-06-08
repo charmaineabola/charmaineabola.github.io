@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Tok Pisin Phrases</title>
+	 <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #9e1d0c;
+            padding: 1px;
+            text-align: center;
+            color: white;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .container h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        .container input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .container button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .container button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e9ecef;
+            border-radius: 4px;
+            font-size: 18px;
+        }
+
+        .card {
+            background-color: #f1b307;
+            border: 5px solid #030303;
+            margin: 50px;
+            padding: 20px;
+            text-align: center;
+        }
+        .card:hover {
+            box-shadow: 0px 0px 10px rgba(189, 82, 82, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+	<header>
+        <h1>Learn Tok Pisin</h1>
+        <p>Your Gateway to Papua New Guinea's Rich Culture</p>
+    </header>
+
+	<nav>
+        <a href="My files/Linux files/S1H124_Batch 5_Group 4_Web Design Project/Learn Tok Pisin.html">Home</a>
+        <a href="My files/Linux files/S1H124_Batch 5_Group 4_Web Design Project/Cultural Insights.html">Cultural Insights</a>
+        <a href="My files/Linux files/S1H124_Batch 5_Group 4_Web Design Project/Grammar Guide.html">Grammar Guide</a>
+        <a href="My files/Linux files/S1H124_Batch 5_Group 4_Web Design Project/Tok Pisin Phrases.html" style="color: #f1b307;"><b>Learn Tok Pisin</b></a>
+    </nav>
+
+    <h2>Basic Tok Pisin Translation</h2>
+	     <h3>Greetings</h3>
+		     <ul>
+				<li>
+					<p id = "demo01">Hi. / Hello.</p>
+                        <button type = "button" onclick ='document.getElementById("demo01").innerHTML="Halo"'>Translate</button>
+				</li>
+			    <li>
+					<p id = "demo02">Good Morning.</p>
+                    <button type = "button" onclick ='document.getElementById("demo02").innerHTML="Gutpela Morning"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo03">Good Day.</p>
+                    <button type = "button" onclick ='document.getElementById("demo03").innerHTML="Gutpela Dei"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo04">Good Afternoon.</p>
+                    <button type = "button" onclick ='document.getElementById("demo04").innerHTML="Gutpela Avinun"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo05">Good Night.</p>
+                    <button type = "button" onclick ='document.getElementById("demo05").innerHTML="Gutpela Nait"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo06">How are you? / How's it going?</p>
+                    <button type = "button" onclick ='document.getElementById("demo06").innerHTML="Yu orait? / Orait ah?"'>Translate</button>
+				</li>
+			</ul>
+		 <h3>Common Expressions</h3>
+		    
+			</ul><ul>
+				<li>
+					<p id = "demo07">Thanks. / Thank you. / Thank you very much.</p>
+                    <button type = "button" onclick ='document.getElementById("demo07").innerHTML="Tenk Yu / Tenk Yu stret"'>Translate</button>
+			    <li>
+					<p id = "demo08">You're welcome. / No problem.</p>
+                    <button type = "button" onclick ='document.getElementById("demo08").innerHTML="Welkam / Noken wari"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo09">Please...</p>
+                    <button type = "button" onclick ='document.getElementById("demo09").innerHTML="Plis"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo10">Excuse me... / Pardon me...</p>
+                    <button type = "button" onclick ='document.getElementById("demo10").innerHTML="Ekskius Mi / Sori stret"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo11">Sorry. / I'm sorry.</p>
+                    <button type = "button" onclick ='document.getElementById("demo11").innerHTML="Sori / Mi sori stret"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo12">Yes.</p>
+                    <button type = "button" onclick ='document.getElementById("demo12").innerHTML="Yes"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo13">No.</p>
+                    <button type = "button" onclick ='document.getElementById("demo13").innerHTML="No / Nogat"'>Translate</button>
+				</li>
+				</li><p id = "demo14">Maybe.</p>
+	                <button type = "button" onclick = 'document.getElementById("demo14").innerHTML="Ating / Em mas"'>Translate</button>
+				</li>
+                <li>
+					<p id = "demo15">I don't understand. / I don't get it.</p>
+	                <button type = "button" onclick	= 'document.getElementById("demo15").innerHTML="Mi no understandim / Mi no kisim"'>Translate</button>				
+                </li>
+				<li>
+					<p id = "demo16">Can you help me?</p>
+	                <button type = "button" onclick = 'document.getElementById("demo16").innerHTML="Inap yu halivim mi? / Inap yu helpim mi?"'>Translate</button> 
+                </li>
+		 <h3>Polite Phrases</h3>	
+			<ul>
+				<li>
+					<p id = "demo17">Nice to meet you.</p> 
+	                <button type = "button" onclick = 'document.getElementById("demo17").innerHTML="Gutpela lo meetim yu"'>Translate</button>						
+				</li>
+				<li>
+					<p id = "demo18">What's your name?</p>
+					<button type = "button" onclick = 'document.getElementById("demo18").innerHTML="Wanem name bilong yu?"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo19">My name is...</p>
+					<button type = "button" onclick = 'document.getElementById("demo19").innerHTML="Neim bilong mi em..."'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo20">Where are you from?</p>
+				    <button type = "button" onclick = 'document.getElementById("demo20").innerHTML="Yu blo wanem hap"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo21">I am from..</p>
+				    <button type = "button" onclick = 'document.getElementById("demo21").innerHTML="Mi bilong..."'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo22">Do you speak English?</p>
+					<button type = "button" onclick = 'document.getElementById("demo22").innerHTML="Yu sawe lo Tok Inglis?"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo23">Could you please repeat that?</p>
+					<button type = "button" onclick = 'document.getElementById("demo23").innerHTML="Inap yu tok gen dispela tok?"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo24">How much does this/these ?</p>
+					<button type = "button" onclick = 'document.getElementById("demo24").innerHTML="Hamas lo dispela?"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo25">Where is the restroom?</p>     
+					<button type = "button" onclick = 'document.getElementById("demo25").innerHTML="Toilet stap lo wanem hap?"'>Translate</button>
+				</li>
+            </ul>
+		 <h3>More Ways to say Hello</h3>
+			<ul> 		
+				<li>
+					<p id = "demo26">Hi there!</p>
+					<button type = "button" onclick = 'document.getElementById("demo26").innerHTML="Hi long yu!"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo27">Greetings</p>
+					<button type = "button" onclick = 'document.getElementById("demo27").innerHTML="Gutnius!"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo28">What's up?</p>
+					<button type = "button" onclick = 'document.getElementById("demo28").innerHTML="Wanem samting i kamap?"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo29">How's it going?</p>
+					<button type = "button" onclick = 'document.getElementById("demo29").innerHTML="Olsem wanem?"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo30">How do you do?</p>
+					<button type = "button" onclick = 'document.getElementById("demo30").innerHTML="Olsem wanem?"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo31">Good to see you!</p>
+					<button type = "button" onclick = 'document.getElementById("demo31").innerHTML="Mi hamamas long lukim yu!"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo32">Welcome!</p>
+					<button type = "button" onclick = 'document.getElementById("demo32").innerHTML="Gutpela kam!"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo33">Hey, long time no see!</p>
+					<button type = "button" onclick = 'document.getElementById("demo33").innerHTML="Longpla taim mi no lukim yu!"'>Translate</button>
+				</li>	
+			</ul>
+		 <h3>Time Specific Greetings</h3>
+		    <ul>
+				<li>
+					<p id = "demo34">Have a great day!</p>
+					<button type = "button" onclick = 'document.getElementById("demo34").innerHTML="Yu gat gutpela dei!"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo35">Have a nice afternoon!</p>
+					<button type = "button" onclick = 'document.getElementById("demo35").innerHTML="Yu gat naispela avinun!"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo36">Have a pleasant evening!</p>
+					<button type = "button" onclick = 'document.getElementById("demo36").innerHTML="Yu gat gutpela nait!"'>Translate</button>
+				</li>
+			</ul>
+		 <h3>More ways to say Goodbye</h3>
+		    <ul>
+		        <li>
+				    <p id = "demo37">See you later!</p>
+				    <button type = "button" onclick = 'document.getElementById("demo37").innerHTML="Lukim yu! / Lukim yu behain taim!"'>Translate</button>
+			    </li>
+				<li>
+				    <p id = "demo38">Take care!</p>
+				    <button type = "button" onclick = 'document.getElementById("demo38").innerHTML="Was gut!"'>Translate</button>
+			    </li>
+				<li>
+					<p id = "demo39">Catch you later!</p>
+					<button type = "button" onclick = 'document.getElementById("demo39").innerHTML="Kets!"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo40">See you soon!</p>
+					<button type = "button" onclick = 'document.getElementById("demo40").innerHTML="Lukim yu bihain!"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo41">See you tomorrow!</p>
+					<button type = "button" onclick = 'document.getElementById("demo41").innerHTML="Lukim yu tumoro!"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo42">Talk to you later!</p>
+					<button type = "button" onclick = 'document.getElementById("demo42").innerHTML="Toktok lo yu bihain1"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo43">Farewell!</p>
+					<button type = "button" onclick = 'document.getElementById("demo43").innerHTML="Lukim yu!"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo44">Bye for now!</p>
+					<button type = "button" onclick = 'document.getElementById("demo44").innerHTML="Bye nau!"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo45">Have a great day!</p>
+					<button type = "button" onclick = 'document.getElementById("demo45").innerHTML="Yu gat gutpla dei!"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo46">Safe travels!</p>
+					<button type = "button" onclick = 'document.getElementById("demo46").innerHTML="Gutpela raun!"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo47">See you around!</p>
+					<button type = "button" onclick = 'document.getElementById("demo47").innerHTML="Lukim yu1"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo48">All the best"</p>
+					<button type = "button" onclick = 'document.getElementById("demo48").innerHTML="Gutpla taim!"'>Translate</button>
+				</li>
+			</ul>
+		 <h3>Parting Phrases</h3>	
+		    <ul>
+				<li>
+					<p id = "demo49">It was nice meeting you!</p>
+					<button type = "button" onclick = 'documentgetElementById("demo49").innerHTML="Mi hamamas long bungim yu!"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo50">It was great to see you!</p>
+					<button type = "button" onclick = 'document.getElementByid("demo50").innerHTML="Gutpela long lukim yu!"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo51">Let's keep in touch</p>
+					<button type = "button" onclick = 'document.getElementById("demo51").innerHTML="Yumi mas toktok wantaim!"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo52">I hope to see you again soon!</p>
+					<button type = "button" onclick = 'document.getElementById("demo52").innerHTML="Mi hope lo lukim yu ken bihain taim!"'>Translate</button>
+				</li>
+			</ul>
+		 <h3>For Phone Conversations</h3>	
+		    <ul>	
+				<li>
+					<p id = "demo53">Talk/Speak to you soon!</p>
+					<button type = "button" onclick = 'document.getElementById("demo53").innerHTML="Bihaim yumi toktok! / Yumi toktok bihain!"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo54">Thanks for calling!</p>
+					<button type = "button" onclick = 'document.getElementById("demo54").innerHTML="Tenk yu lo ring!"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo55">I'll call you later!</p>
+					<button type = "button" onclick = 'document.getElementById("demo55").innerHTML="Bihain ba mi ringim yu! / Ba mi ringim yu bihain!"'>Translate</button>
+				</li>
+			</ul>
+		 <h3>Expressions of Agreement</h3>
+		    <ul>	
+				<li>
+					<p id = "demo56">Absolutely!</p>
+					<button type = "button" onclick = 'document.getElementById("demo56").innerHTML="Tru tumas!"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo57">Exactly!</p>
+                    <button type = "button" onclick ='document.getElementById("demo57").innerHTML="Em tasol! / Em stret!"'>Translate</button>
+			    <li>
+					<p id = "demo58">That's right</p>
+                    <button type = "button" onclick ='document.getElementById("demo58").innerHTML="Dispela em i tru!"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo59">I agree</p>
+                    <button type = "button" onclick ='document.getElementById("demo59").innerHTML="Mi wanbel"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo60">You're right</p>
+                    <button type = "button" onclick ='document.getElementById("demo60").innerHTML="You tok tru"'>Translate</button>
+				</li>
+			</ul>		
+					<h3>Expressions of Disagreement</h3>
+		    <ul>	
+				<li>
+					<p id = "demo61">I don't think so</p>
+					<button type = "button" onclick = 'document.getElementById("demo61").innerHTML="Mi no ting olsem"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo62">I disagree</p>
+                    <button type = "button" onclick ='document.getElementById("demo62").innerHTML="Mi no wanbel"'>Translate</button>
+			    </li>
+				<li>
+					<p id = "demo63">Not really</p>
+                    <button type = "button" onclick ='document.getElementById("demo63").innerHTML="Ino tumas / Nogat tru"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo64">I'm not sure about that</p>
+                    <button type = "button" onclick ='document.getElementById("demo64").innerHTML="Mi no save long dispela / Mi no kliagut long dispela"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo65">That's not how I see it</p>
+                    <button type = "button" onclick ='document.getElementById("demo65").innerHTML="Mi no ting olsem"'>Translate</button>
+				</li>
+		    </ul>
+        <h3>Expressions of Suprise</h3>
+		    <ul>
+			    <li>
+				   <p id = "demo66">Really?</p>
+				   <button type = "button" onclick ='document.getElementById("demo66").innerHTML="Tru tumas? / Em tru ah?"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo67">No way!</p>
+				   <button type = "button" onclick ='document.getElementById("demo67").innerHTML="No gat rot / Nogat tru"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo68">You're kidding</p>
+				   <button type = "button" onclick ='document.getElementById("demo68").innerHTML="Yu tok pilai"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo69">Wow!</p>
+				   <button type = "button" onclick ='document.getElementById("demo69").innerHTML="Wow!"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo70">That's amazing!</p>
+					<button type = "button" onclick ='document.getElementById("demo70").innerHTML="Em gutpela tru"'>Translate</button>
+				 </li>
+			</ul>
+		<h3>Expressions of Doubt</h3>
+		    <ul>
+			    <li>
+				   <p id = "demo71">Are you sure?</p>
+				   <button type = "button" onclick ='document.getElementById("demo71").innerHTML="Yu save tru"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo72">I'm not sure.</p>
+				   <button type = "button" onclick ='document.getElementById("demo72").innerHTML="Mi no save"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo73">I doubt it.</p>
+				   <button type = "button" onclick ='document.getElementById("demo73").innerHTML="Mi no ting alsem"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo74">That's hard to believe.</p>
+				   <button type = "button" onclick ='document.getElementById("demo74").innerHTML="E hatwok long bilip"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo75">I don't know about that.</p>
+					<button type = "button" onclick ='document.getElementById("demo75").innerHTML="Mi no save long displa"'>Translate</button>
+				 </li>
+			</ul>
+		<h3>Expressions of of Certainty</h3>
+		    <ul>
+			    <li>
+				   <p id = "demo76">Of course!</p>
+				   <button type = "button" onclick ='document.getElementById("demo76").innerHTML="Tru tumas!"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo77">Definitely!</p>
+				   <button type = "button" onclick ='document.getElementById("demo77").innerHTML="Tru tumas!"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo78">Without a doubt.</p>
+				   <button type = "button" onclick ='document.getElementById("demo78").innerHTML="E nogat tupela tingting"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo79">I'm sure.</p>
+				   <button type = "button" onclick ='document.getElementById("demo79").innerHTML="Mi save"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo80">No question about it.</p>
+					<button type = "button" onclick ='document.getElementById("demo80").innerHTML="E nogat askim long dispela"'>Translate</button>
+				 </li>
+			</ul>
+			<h3>Expressions of preference</h3>
+		    <ul>
+			    <li>
+				   <p id = "demo81">I Prefer... </p>
+				   <button type = "button" onclick ='document.getElementById("demo81").innerHTML="Mi laik... / Mi laikim..."'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo82">I'd rather...</p>
+				   <button type = "button" onclick ='document.getElementById("demo82").innerHTML="Mi laik..."'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo83"> I like...better</p>
+				   <button type = "button" onclick ='document.getElementById("demo83").innerHTML="Mi laikim...moe"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo84">My favorite is...</p>
+				   <button type = "button" onclick ='document.getElementById("demo84").innerHTML="Mi laikim tru dispela..."'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo85">I enjoy...more</p>
+					<button type = "button" onclick ='document.getElementById("demo85").innerHTML="Mi hamamas...moe"'>Translate</button>
+				 </li>
+			</ul>
+		<h3>Expressions of Necessary</h3>
+		    <ul>
+			    <li>
+				   <p id = "demo86">I need to...</p>
+				   <button type = "button" onclick ='document.getElementById("demo86").innerHTML="Mi mas..."'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo87">I have to...</p>
+				   <button type = "button" onclick ='document.getElementById("demo87").innerHTML="Mi mas mekim..."'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo88">It's necessary to...</p>
+				   <button type = "button" onclick ='document.getElementById("demo88").innerHTML="E mas e stap..."'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo89">I must...</p>
+				   <button type = "button" onclick ='document.getElementById("demo89").innerHTML="Mi gat bikpela laik..."'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo90">It's important to...</p>
+					<button type = "button" onclick ='document.getElementById("demo90").innerHTML="Em e bikpela samting long..."'>Translate</button>
+				 </li>
+			</ul>
+		<h3>Expressions of Possibility</h3>
+		    <ul>
+			    <li>
+				   <p id = "demo91">Maybe.</p>
+				   <button type = "button" onclick ='document.getElementById("demo91").innerHTML="Ating"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo92">It's unable to.</p>
+				   <button type = "button" onclick ='document.getElementById("demo92").innerHTML="Em e no inap"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo93">It's impossible.</p>
+				   <button type = "button" onclick ='document.getElementById("demo93").innerHTML="Em e no inap kamap"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo94">I don't know how.</p>
+				   <button type = "button" onclick ='document.getElementById("demo94").innerHTML="Mi no save olsem wanem"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo95">I don't have the ability</p>
+					<button type = "button" onclick ='document.getElementById("demo95").innerHTML="Mi no gat dispela strong"'>Translate</button>
+				 </li>
+			</ul>
+		<h3>Expressions of Understanding</h3>
+		    <ul>
+			    <li>
+				   <p id = "demo96">I see.</p>
+				   <button type = "button" onclick ='document.getElementById("demo96").innerHTML="Mi save"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo97">I understand</p>
+				   <button type = "button" onclick ='document.getElementById("demo97").innerHTML="Mi kliagut"'>Translate</button>
+				</li>
+			    <li</li>
+				   <p id = "demo98">Got it.</p>
+				   <button type = "button" onclick ='document.getElementById("demo98").innerHTML="Mi kisim pinis"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo99">That make sense.</p>
+				   <button type = "button" onclick ='document.getElementById("demo99").innerHTML="Dispela e stret"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo100">I get it.</p>
+					<button type = "button" onclick ='document.getElementById("demo100").innerHTML="Mi kisim pinis"'>Translate</button>
+				 </li>
+			</ul>
+		<h3>Expressions of Confusion</h3>
+		    <ul>
+			    <li>
+				   <p id = "demo101">I don't understand.</p>
+				   <button type = "button" onclick ='document.getElementById("demo101").innerHTML="Mi no kliagut"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo102">I'm confused.</p>
+				   <button type = "button" onclick ='document.getElementById("demo102").innerHTML="Mi paul"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo103">Can you explain that?</p>
+				   <button type = "button" onclick ='document.getElementById("demo103").innerHTML="Yu inap stori long dispela?"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo104">What do you mean?</p>
+				   <button type = "button" onclick ='document.getElementById("demo104").innerHTML="wanem mining bilong dispela tok?"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo105">I don't get it.</p>
+					<button type = "button" onclick ='document.getElementById("demo105").innerHTML="Mi no kliagut"'>Translate</button>
+				 </li>
+			</ul>
+		<h3>Expressions of Asking for Help</h3>
+		    <ul>
+			    <li>
+				   <p id = "demo106">Can you help me?</p>
+				   <button type = "button" onclick ='document.getElementById("demo106").innerHTML="Inap you helpim me?"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo107">Could you do me a favor?</p>
+				   <button type = "button" onclick ='document.getElementById("demo107").innerHTML="Yu inap mekim wanpela samting long mi?"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo108">I need some assistance.</p>
+				   <button type = "button" onclick ='document.getElementById("demo108").innerHTML="Mi mas kisim sampela help"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo109">Can I ask you a question?</p>
+				   <button type = "button" onclick ='document.getElementById("demo109").innerHTML="Mi laik askim yu long wanpela samting?"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo110">Would you mind helping me?</p>
+					<button type = "button" onclick ='document.getElementById("demo110").innerHTML="Yu laik helpim mi?"'>Translate</button>
+				 </li>
+			</ul>
+		<h3>Expressions of Offering Help</h3>
+		    <ul>
+			    <li>
+				   <p id = "demo111">Can I help you...? </p>
+				   <button type = "button" onclick ='document.getElementById("demo111").innerHTML="Mi inap helpim yu...?"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo112">Do you need any help...?</p>
+				   <button type = "button" onclick ='document.getElementById("demo112").innerHTML="Yu nidim wampela samting...?"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo113">Let me help you.</p>
+				   <button type = "button" onclick ='document.getElementById("demo113").innerHTML="Larim mi helpim yu"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo114">I'm here to help.</p>
+				   <button type = "button" onclick ='document.getElementById("demo114").innerHTML="Mi kam bilong helpim yu"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo115">What can I do for you?</p>
+					<button type = "button" onclick ='document.getElementById("demo115").innerHTML="Mi can mekim wanem bilong helpim yu?"'>Translate</button>
+				 </li>
+			</ul>
+		<h3>Polite Phrases for Request</h3>
+		    <ul>
+			    <li>
+				   <p id = "demo116">Could you please..?</p>
+				   <button type = "button" onclick ='document.getElementById("demo116").innerHTML="Yu ken mekim olsem...?"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo117">Would you mind...?</p>
+				   <button type = "button" onclick ='document.getElementById("demo117").innerHTML="Inap yu...?"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo118">May I...?</p>
+				   <button type = "button" onclick ='document.getElementById("demo118").innerHTML="M ken...? / Inap yu...?"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo119">Is it possible to...?</p>
+				   <button type = "button" onclick ='document.getElementById("demo119").innerHTML="Yu inap lo...?"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo120">Would it be okay if I...?</p>
+					<button type = "button" onclick ='document.getElementById("demo120").innerHTML="Em ba orait if mi...?"'>Translate</button>
+				 </li>
+			</ul>
+		<h3>Polite Phrases for Offering Help</h3>
+		    <ul>
+			    <li>
+				   <p id = "demo121">Can I assist you with that...?</p>
+				   <button type = "button" onclick ='document.getElementById("demo121").innerHTML="Inap mi helpim yu long dispela...?"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo122">Do you need any assistance...?</p>
+				   <button type = "button" onclick ='document.getElementById("demo122").innerHTML="Yu needim sampela helpim...?"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo123">How can I help you...?</p>
+				   <button type = "button" onclick ='document.getElementById("demo123").innerHTML="Mi ken hepim yu olsem wanem?"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo124">Is there anything I can do for you...?</p>
+				   <button type = "button" onclick ='document.getElementById("demo124").innerHTML="Igat wanpela samting mi ken mekim bilong helpim yu...?"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo125">Would you like some help...?</p>
+					<button type = "button" onclick ='document.getElementById("demo125").innerHTML="Yu laik kisim sampela helpim...?"'>Translate</button>
+				 </li>
+			</ul>
+		<h3>Polite Phrases for Asking Permession</h3>
+		    <ul>
+			    <li>
+				   <p id = "demo126">May I have your permission..?</p>
+				   <button type = "button" onclick ='document.getElementById("demo126").innerHTML="Inap mi kisim tok olrait bilong yu...?"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo127">Is it alright if I...?</p>
+				   <button type = "button" onclick ='document.getElementById("demo127").innerHTML="E orait sapus mi...?"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo128">Would it be possible for me to...?</p>
+				   <button type = "button" onclick ='document.getElementById("demo128").innerHTML="Ating mi inap mekim olsem...?"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo129">Could I...?</p>
+				   <button type = "button" onclick ='document.getElementById("demo129").innerHTML="Inap mi...?"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo130">Would you allow me to...? </p>
+					<button type = "button" onclick ='document.getElementById("demo130").innerHTML="Yu inap larim mi...?"'>Translate</button>
+				 </li>
+			</ul>
+		<h3>Polite Phrases for Apologizing</h3>
+		    <ul>
+			    <li>
+				   <p id = "demo131">I appologize for...</p>
+				   <button type = "button" onclick ='document.getElementById("demo131").innerHTML="Mi tok sori long..."'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo132">Please accept my apologies.</p>
+				   <button type = "button" onclick ='document.getElementById("demo132").innerHTML="Plis kisim tok sori bilong mi"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo133">I'm terribly sorry.</p>
+				   <button type = "button" onclick ='document.getElementById("demo133").innerHTML="Mi sori tru"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo134">I regret any inconvenience caused.</p>
+				   <button type = "button" onclick ='document.getElementById("demo134").innerHTML="Mi sori tru long ol hevi e kam up"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo135">Please for me.</p>
+					<button type = "button" onclick ='document.getElementById("demo135").innerHTML="Plis long mi"'>Translate</button>
+				 </li>
+			</ul>
+		<h3> Polite Phrases for Expressing Gratitude</h3>
+		    <ul>
+			    <li>
+				   <p id = "demo136">I appreciate your help.</p>
+				   <button type = "button" onclick ='document.getElementById("demo136").innerHTML="Mi tenkyu tru long hepim yu"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo137">Thank you for understanding</p>
+				   <button type = "button" onclick ='document.getElementById("demo137").innerHTML="Tenkyu tru long save bilong yu"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo138">I'm grateful for your assistance.</p>
+				   <button type = "button" onclick ='document.getElementById("demo138").innerHTML="Mi tenkyu tru long helpim bilong yu"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo139">Thank you for your time</p>
+				   <button type = "button" onclick ='document.getElementById("demo139").innerHTML="Tenkyu tru long taim yu lusim bilong helpim mi"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo140">I'm very thankful for...</p>
+					<button type = "button" onclick ='document.getElementById("demo140").innerHTML="Mi tenkyu tru long..."'>Translate</button>
+				 </li>
+			</ul>
+		<h3>Polite Phrases for Responding Thanks</h3>
+		    <ul>
+			    <li>
+				   <p id = "demo141">You're Welcome!</p>
+				   <button type = "button" onclick ='document.getElementById("demo141").innerHTML="E no gat wok long yu!"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo142">It's my plesure.</p>
+				   <button type = "button" onclick ='document.getElementById("demo142").innerHTML="Mi hammas lo mekin olsem"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo143">No problem at all</p>
+				   <button type = "button" onclick ='document.getElementById("demo143").innerHTML="E no gat hevi"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo144">Im happy to help.</p>
+				   <button type = "button" onclick ='document.getElementById("demo144").innerHTML="Mi hamamas long helpim yu"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo145">Don't mention it.</p>
+					<button type = "button" onclick ='document.getElementById("demo145").innerHTML="Yu noken stori long dispela"'>Translate</button>
+				 </li>
+			</ul>
+		<h3>Polite Phrases for Starting Conversation</h3>
+		    <ul>
+			    <li>
+				   <p id = "demo146"> May I ask you...?</p>
+				   <button type = "button" onclick ='document.getElementById("demo146").innerHTML="Mi laik askim yu...?"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo147">Pardon me,do you have a moment?</p>
+				   <button type = "button" onclick ='document.getElementById("demo147").innerHTML="Pardom mi yu gat liklik taim?"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo148">Could I have word with you?</p>
+				   <button type = "button" onclick ='document.getElementById("demo148").innerHTML="Inap mi toktok wantaim yu...?"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo149">Sorry to bother you, but...</p>
+				   <button type = "button" onclick ='document.getElementById("demo149").innerHTML="Mi sori long mi mekim nogut long yu, tasol..."'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo150">May speak with you for a moment?</p>
+					<button type = "button" onclick ='document.getElementById("demo150").innerHTML="Inap mi toktok liklikn wantaim yu?"'>Translate</button>
+				 </li>
+			</ul>
+		<h3>Polite Phrases for Interruptinng</h3>
+		    <ul>
+			    <li>
+				   <p id = "demo151">Excuse me for interrupting, but...</p>
+				   <button type = "button" onclick ='document.getElementById("demo151").innerHTML="Mi tok sori long brukim tok, tasol..."'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo152">I'm sorry to cut in,but...</p>
+				   <button type = "button" onclick ='document.getElementById("demo152").innerHTML="Mi sori tru long mi brukim tok bilong yu, tasol..."'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo153">May I interject for a moment?</p>
+				   <button type = "button" onclick ='document.getElementById("demo153").innerHTML="Inap mi laik toktok liklik...?"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo154">Pardon the interruption, but...</p>
+				   <button type = "button" onclick ='document.getElementById("demo154").innerHTML="Mi laik tok sori long dispela, tasol..."'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo155"> Could I add something here?</p>
+					<button type = "button" onclick ='document.getElementById("demo155").innerHTML="Inap mi kamapim sampela toktok  moa?"'>Translate</button>
+				 </li>
+			</ul>
+		<h3>Polite Phrases for Ending a Conversation</h3>
+		    <ul>
+			    <li>
+				   <p id = "demo156">Thank you for your time</p>
+				   <button type = "button" onclick ='document.getElementById("demo156").innerHTML="Tenkyu long taim yu bin lusim bilong hepim mi"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo157">I appreciate you help</p>
+				   <button type = "button" onclick ='document.getElementById("demo157").innerHTML="Mi hamamas long yu helpim mi"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo158">It was nice talking to you.</p>
+				   <button type = "button" onclick ='document.getElementById("demo158").innerHTML="Mi hamamas long toktok wantaim you"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo159">I hope to speak with you again soon.</p>
+				   <button type = "button" onclick ='document.getElementById("demo159").innerHTML="mi laik toktok wantaim yu gen"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo160"> Thank you for your conversation...</p>
+					<button type = "button" onclick ='document.getElementById("demo160").innerHTML="Mi tenkyu long toktok bilong yu"'>Translate</button>
+				 </li>
+			</ul>
+		<h3>Polite Phrases for Making Suggestion</h3>
+		    <ul>
+			    <li>
+				   <p id = "demo161">May I suggest...?</p>
+				   <button type = "button" onclick ='document.getElementById("demo161").innerHTML="Inap mi laik toktok olsem...?"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo162">Have you considered...?</p>
+				   <button type = "button" onclick ='document.getElementById("demo162").innerHTML="Yu bin tingim olsem...?"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo163">I would recommend...</p>
+				   <button type = "button" onclick ='document.getElementById("demo163").innerHTML="Mi laik tok strong long..."'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo164">It might be good idea to...</p>
+				   <button type = "button" onclick ='document.getElementById("demo164").innerHTML="Ating em e gutpela tingting long..."'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo165">Perhaps you could...</p>
+					<button type = "button" onclick ='document.getElementById("demo165").innerHTML="Ating yu inap..."'>Translate</button>
+				 </li>
+			</ul>
+		<h3>Polite Phrases for Expressing Concern</h3>
+		    <ul>
+			    <li>
+				   <p id = "demo166">I hope everythhing is ok.</p>
+				   <button type = "button" onclick ='document.getElementById("demo166").innerHTML="Mi laik bai olgeta samting i stap gut"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo167">Is there anything I can do help?</p>
+				   <button type = "button" onclick ='document.getElementById("demo167").innerHTML="I gat wanpela samting mi ken mekim bilong helpim?"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo168">I'm sorry to hear that.</p>
+				   <button type = "button" onclick ='document.getElementById("demo168").innerHTML="Mi sori lo harim dispela tok"'>Translate</button>
+				</li>
+			    <li>
+				   <p id = "demo169">Please let me know if you need anything.</p>
+				   <button type = "button" onclick ='document.getElementById("demo169").innerHTML="Plis tokim mi sapus yu nidim wanpela samting"'>Translate</button>
+				</li>
+				<li>
+					<p id = "demo170">I hope things get better soon.</p>
+					<button type = "button" onclick ='document.getElementById("demo170").innerHTML="Mi laik bai ol samting i kamap gutpela hariap"'>Translate</button>
+				 </li>
+			</ul>
+>
+</body>
+</html>
